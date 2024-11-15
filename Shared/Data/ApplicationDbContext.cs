@@ -4,7 +4,7 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Diagnostics;
 using Shared.Entity;
 
-namespace WebIdentityApi.Data
+namespace Shared.Data
 {
     public class ApplicationDbContext : IdentityDbContext<User>
     {
